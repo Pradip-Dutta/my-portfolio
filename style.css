@@ -380,6 +380,11 @@ nav .menus a:hover{
       .contact-form-container {
         max-width: 23.75rem;
       }
+
+      #about{
+          display:flex;
+          flex-diraction:column;
+      }
   }
 
 
