@@ -99,6 +99,10 @@ nav .menus a:hover{
     border: transparent;
     border: 1px solid #fff;
 }
+.hero-btn a{
+  text-decoration: none;
+  color: #000;
+}
 
 .hero-btn:hover{
     background-color: #000;
@@ -123,6 +127,7 @@ nav .menus a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 #about img{
@@ -179,7 +184,6 @@ nav .menus a:hover{
   .icon-card {
     background-color: #fff;
     border-radius: 11px;
-    /* box-shadow: 0 3px 10px var(--secondary-shadow); */
     padding: 20px;
     margin: 10px;
   }
@@ -381,9 +385,25 @@ nav .menus a:hover{
         max-width: 23.75rem;
       }
 
-      #about{
-          display:flex;
-          flex-diraction:column;
+      #about {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30%;
+      }
+
+      .about_img_text{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .about_img_text img{
+        display: none;
+      }
+
+      .about_me{
+        width: 100%;
+        padding-right: 0;
       }
   }
 
@@ -392,6 +412,21 @@ nav .menus a:hover{
     .hero img {
       height: 37.5rem;
       width: 23rem;
+    }
+
+    .burger-menu {
+      display: block;
+    }
+    .hero-heading{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+
+    }
+    .hero-heading h1{
+      font-size: 3rem;
+      margin-left: 15%;
     }
   
     .bio {
