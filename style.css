@@ -393,6 +393,7 @@ nav .menus a:hover{
       }
 
       .about_img_text{
+          width:100%;
         display: flex;
         flex-direction: column;
       }
